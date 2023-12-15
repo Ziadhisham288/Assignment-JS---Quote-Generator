@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Dancing+Script:wght@500;600;700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <section id="home" class="vh-100 p-0 d-flex justify-content-center align-items-center">
+        <div class="content container mx-auto text-center text-white mb-5">
+            <h1 class="mb-3">
+                QUOTE OF THE DAY
+            </h1>
+            <h2 class="mb-4">Press the button below to recieve a random quote!</h2>
+            <button onclick="displayQuote()" class="py-3 px-5 border-1 rounded-5 mb-4 text-white">New Quote</button>
+            <h3 id="quote"></h3>
+            <h5 id="author"></h5>
+        </div>
+    </section>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
